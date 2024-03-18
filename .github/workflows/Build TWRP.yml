@@ -56,7 +56,7 @@ jobs:
       
     - name: Clone device tree
       run: |
-        git clone https://github.com/Shivelight/recovery_device_infinix_X6837.git -b ${{ env.BRANCH_NAME }} ./device/infinix/X6837
+        git clone https://github.com/Sarawut28T/recovery_device_infinix_X6837.git -b ${{ env.BRANCH_NAME }} ./device/infinix/X6837
       working-directory: ${{ steps.pwd.outputs.workspace-folder }}
 
     - name: Sync Device Dependencies
